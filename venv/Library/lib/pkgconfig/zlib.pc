@@ -1,0 +1,13 @@
+prefix=C:/PINECONE/venv/Library
+exec_prefix=C:/PINECONE/venv/Library
+libdir=C:/PINECONE/venv/Library/lib
+sharedlibdir=C:/PINECONE/venv/Library/lib
+includedir=C:/PINECONE/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
